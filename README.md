@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome List" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Macos-Software-Curations-Developer-Resources/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Macos-Software-Curations-Developer-Resources?style=flat-square&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Macos-Software-Curations-Developer-Resources/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Macos-Software-Curations-Developer-Resources?style=flat-square&color=gold" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Macos-Software-Curations-Developer-Resources/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Macos-Software-Curations-Developer-Resources?style=flat-square&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Macos-Software-Curations-Developer-Resources/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Macos-Software-Curations-Developer-Resources?style=flat-square&color=red" alt="GitHub Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Macos-Software-Curations-Developer-Resources/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
@@ -60,11 +60,11 @@ The table below outlines leading commercial app bundles, hosted directories, and
 
 Community-driven, open-source repositories and package management utilities, sorted in descending order by GitHub stargazers count. 🌟💻
 
-| Project | ⭐ Stars | 🎯 Focus & Description |
+| Project | ⭐ GitHub_Stars | 🎯 Focus & Description |
 | :--- | :--- | :--- |
 | **[Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome)** | [![Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Awesome-Awesome?style=social&color=white)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome/stargazers) | 👑 The root index of curated awesome-lists, containing foundational references for macOS developers, shells, and software ecosystems. |
 | **[jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac)** | [![Stars](https://img.shields.io/github/stars/jaywcjlove/awesome-mac?style=social&color=white)](https://github.com/jaywcjlove/awesome-mac/stargazers) | 🏆 The premier macOS software curation guide on GitHub, organizing high-quality apps, CLI utilities, and developer tools by category. |
-| **[serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps)** | [![Stars](https://img.shields.io/github/stars/serhii-londar/open-source-mac-os-apps?style=social&color=white)](https://github.com/serhii-londar/open-source-mac-os-apps/stargazers) | 📚 Massive catalog of awesome open-source macOS software with primary links, licenses, Swift/Objective-C tech stacks, and star counts. |
+| **[serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps)** | [![Stars](https://img.shields.io/github/stars/serhii-londar/open-source-mac-os-apps?style=social&color=white)](https://github.com/serhii-londar/open-source-mac-os-apps/stargazers) | 📚 Massive catalog of awesome open-source macOS software with primary links, licenses, Swift/Objective-C tech stacks, and Stars_Counts. |
 | **[Homebrew/brew](https://github.com/Homebrew/brew)** | [![Stars](https://img.shields.io/github/stars/Homebrew/brew?style=social&color=white)](https://github.com/Homebrew/brew/stargazers) | 🍺 The missing package manager for macOS; provides command-line formulas and GUI casks used as the de facto standard by Mac developers. |
 | **[iina/iina](https://github.com/iina/iina)** | [![Stars](https://img.shields.io/github/stars/iina/iina?style=social&color=white)](https://github.com/iina/iina/stargazers) | 🎬 Modern media player for macOS built with Swift, mpv, and native macOS design patterns (Picture-in-Picture, Touch Bar, dark mode). |
 | **[MonitorControl/MonitorControl](https://github.com/MonitorControl/MonitorControl)** | [![Stars](https://img.shields.io/github/stars/MonitorControl/MonitorControl?style=social&color=white)](https://github.com/MonitorControl/MonitorControl/stargazers) | 🖥️ Essential utility to control external monitor brightness, volume, and contrast natively via keyboard keys and DDC/CI commands. |
@@ -103,7 +103,7 @@ When configuring a reproducible Mac development machine, combine these complemen
 Contributions are always welcome! 💖
 1. Fork this repository. 🍴
 2. Create a new branch: `git checkout -b feature/new-macos-resource`. 🌿
-3. Add or update items in `README.md` following the tabular layout. For open-source repos, include the social star badge linking to the `/stargazers` URL. ⭐
+3. Add or update items in `README.md` following the tabular layout. For open-source repos, include the social Stars_Badge linking to the `/stargazers` URL. ⭐
 4. Ensure entries are factual, active, and relevant to macOS software curation or developer workflows. ✅
 5. Submit a Pull Request with a clear description of the project. 🚀
 
@@ -133,3 +133,12 @@ Your support keeps this ecosystem up to date, comprehensive, and freely accessib
 - This is a community-curated directory intended for educational and developer productivity purposes; inclusion does not constitute a commercial endorsement. 🛡️
 - Package managers and repositories execute build scripts and third-party binaries; always review formulae, casks, and release signatures before installing on production systems. 🔐
 - Commercial trademarks and service marks belong to their respective owners. 🏷️
+
+## Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Macos-Software-Curations-Developer-Resources&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Macos-Software-Curations-Developer-Resources_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Macos-Software-Curations-Developer-Resources_growth.svg">
+  </picture>
+</a>
