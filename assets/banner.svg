@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" style="background:#090d16; font-family:-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bg-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="40%" stop-color="#0b1120" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+
+    <linearGradient id="title-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="apple-silver" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#94a3b8" stop-opacity="0.7" />
+    </linearGradient>
+
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.6" />
+    </linearGradient>
+
+    <linearGradient id="grid-glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="soft-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="40" result="blur" />
+    </filter>
+
+    <filter id="card-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseOrb {
+      0% { transform: scale(1) translate(0px, 0px); opacity: 0.45; }
+      50% { transform: scale(1.15) translate(25px, -15px); opacity: 0.75; }
+      100% { transform: scale(1) translate(0px, 0px); opacity: 0.45; }
+    }
+    @keyframes pulseOrbPurple {
+      0% { transform: scale(1) translate(0px, 0px); opacity: 0.35; }
+      50% { transform: scale(1.2) translate(-30px, 20px); opacity: 0.65; }
+      100% { transform: scale(1) translate(0px, 0px); opacity: 0.35; }
+    }
+    @keyframes floatPill1 {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-7px); }
+      100% { transform: translateY(0px); }
+    }
+    @keyframes floatPill2 {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(7px); }
+      100% { transform: translateY(0px); }
+    }
+    @keyframes streamData {
+      0% { stroke-dashoffset: 400; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes badgeShimmer {
+      0% { opacity: 0.7; }
+      50% { opacity: 1; }
+      100% { opacity: 0.7; }
+    }
+
+    .orb-blue {
+      animation: pulseOrb 9s ease-in-out infinite;
+      transform-origin: 220px 100px;
+    }
+    .orb-purple {
+      animation: pulseOrbPurple 11s ease-in-out infinite;
+      transform-origin: 980px 240px;
+    }
+    .pill-group-1 {
+      animation: floatPill1 6s ease-in-out infinite;
+    }
+    .pill-group-2 {
+      animation: floatPill2 7s ease-in-out infinite;
+    }
+    .stream-line {
+      stroke-dasharray: 8 14;
+      animation: streamData 18s linear infinite;
+    }
+    .shimmer-glow {
+      animation: badgeShimmer 4s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Deep Canvas Background -->
+  <rect width="1200" height="360" fill="url(#bg-glow)" rx="16" />
+
+  <!-- Dynamic Ambient Glow Spheres (Kept in distant background behind texts) -->
+  <g filter="url(#soft-glow)" pointer-events="none">
+    <circle cx="200" cy="90" r="140" fill="#0284c7" class="orb-blue" />
+    <circle cx="1020" cy="270" r="160" fill="#7c3aed" class="orb-purple" />
+    <circle cx="600" cy="40" r="110" fill="#3b82f6" opacity="0.2" />
+  </g>
+
+  <!-- High-Tech Geometric Grid Horizon Lines -->
+  <g stroke="url(#grid-glow)" stroke-width="1" opacity="0.6" pointer-events="none">
+    <line x1="0" y1="290" x2="1200" y2="290" />
+    <line x1="0" y1="320" x2="1200" y2="320" />
+    <line x1="0" y1="345" x2="1200" y2="345" />
+    <!-- Diagonal grid rays -->
+    <line x1="600" y1="270" x2="0" y2="360" />
+    <line x1="600" y1="270" x2="300" y2="360" />
+    <line x1="600" y1="270" x2="900" y2="360" />
+    <line x1="600" y1="270" x2="1200" y2="360" />
+  </g>
+
+  <!-- Subtle Dynamic Tech Data Stream Lines (behind cards/text) -->
+  <path d="M-50,80 Q300,160 650,70 T1250,110" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity="0.25" class="stream-line" />
+  <path d="M-50,280 Q450,220 800,290 T1250,230" fill="none" stroke="#a855f7" stroke-width="1.5" opacity="0.2" class="stream-line" />
+
+  <!-- Corner Border Framing -->
+  <rect x="10" y="10" width="1180" height="340" rx="14" fill="none" stroke="#334155" stroke-width="1" stroke-opacity="0.4" />
+
+  <!-- Floating Dynamic Tech Pills (Background Decorative Depth - Positioned to NEVER obscure text) -->
+  <g class="pill-group-1">
+    <g transform="translate(65, 45)">
+      <rect width="145" height="34" rx="17" fill="url(#card-grad)" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4" />
+      <circle cx="18" cy="17" r="4.5" fill="#38bdf8" />
+      <text x="32" y="22" fill="#bae6fd" font-size="12" font-weight="600" letter-spacing="0.5">📦 Homebrew Cask</text>
+    </g>
+    <g transform="translate(980, 50)">
+      <rect width="155" height="34" rx="17" fill="url(#card-grad)" stroke="#a855f7" stroke-width="1" stroke-opacity="0.4" />
+      <circle cx="18" cy="17" r="4.5" fill="#a855f7" />
+      <text x="32" y="22" fill="#e9d5ff" font-size="12" font-weight="600" letter-spacing="0.5">🚀 macOS Tooling</text>
+    </g>
+  </g>
+
+  <g class="pill-group-2">
+    <g transform="translate(80, 275)">
+      <rect width="155" height="34" rx="17" fill="url(#card-grad)" stroke="#818cf8" stroke-width="1" stroke-opacity="0.4" />
+      <circle cx="18" cy="17" r="4.5" fill="#818cf8" />
+      <text x="32" y="22" fill="#c7d2fe" font-size="12" font-weight="600" letter-spacing="0.5">⚡ App Ecosystems</text>
+    </g>
+    <g transform="translate(970, 275)">
+      <rect width="165" height="34" rx="17" fill="url(#card-grad)" stroke="#34d399" stroke-width="1" stroke-opacity="0.4" />
+      <circle cx="18" cy="17" r="4.5" fill="#34d399" />
+      <text x="32" y="22" fill="#a7f3d0" font-size="12" font-weight="600" letter-spacing="0.5">💎 Curated Discovery</text>
+    </g>
+  </g>
+
+  <!-- FOREGROUND CONTENT: Header Category Tag -->
+  <g transform="translate(600, 75)" text-anchor="middle" class="shimmer-glow">
+    <rect x="-165" y="-14" width="330" height="28" rx="14" fill="#1e293b" fill-opacity="0.8" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.6" />
+    <text x="0" y="5" fill="#38bdf8" font-size="11.5" font-weight="700" letter-spacing="2"> MACOS DEVELOPER ECOSYSTEM</text>
+  </g>
+
+  <!-- FOREGROUND CONTENT: Primary Title (Always in Foreground & Crisp) -->
+  <!-- Apple Silhouette Icon beside Title -->
+  <g transform="translate(600, 145)" text-anchor="middle">
+    <!-- Main Title Text with vibrant crisp gradient -->
+    <text x="0" y="0" fill="url(#title-gradient)" font-size="44" font-weight="800" letter-spacing="-0.5" filter="url(#card-shadow)">
+      Awesome macOS Software Curations
+    </text>
+  </g>
+
+  <!-- FOREGROUND CONTENT: Subtitle (Always in Foreground) -->
+  <g transform="translate(600, 190)" text-anchor="middle">
+    <text x="0" y="0" fill="#f8fafc" font-size="22" font-weight="600" letter-spacing="0.2">
+      &amp; Developer Resources
+    </text>
+  </g>
+
+  <!-- FOREGROUND CONTENT: Description Tagline -->
+  <g transform="translate(600, 230)" text-anchor="middle">
+    <text x="0" y="0" fill="#94a3b8" font-size="14.5" font-weight="400" letter-spacing="0.3">
+      Curated Package Managers • App Stores • Tiling Window Managers • System CLI Utilities
+    </text>
+  </g>
+
+  <!-- Mac Window Traffic Lights (Top Left Aesthetic Accent) -->
+  <g transform="translate(32, 28)">
+    <circle cx="0" cy="0" r="6" fill="#ef4444" />
+    <circle cx="18" cy="0" r="6" fill="#f59e0b" />
+    <circle cx="36" cy="0" r="6" fill="#10b981" />
+  </g>
+</svg>
