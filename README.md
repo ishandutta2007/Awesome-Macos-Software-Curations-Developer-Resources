@@ -1,6 +1,6 @@
 # Awesome-Macos-Software-Curations-Developer-Resources
 
-# Top macOS Software Curations & Developer Resources Ecosystem
+## Top macOS Software Curations & Developer Resources Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Package Management, App Discovery & Curated Software Catalogs*  
