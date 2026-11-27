@@ -1,107 +1,99 @@
-# Awesome-Macos-Software-Curations-Developer-Resources
+# Awesome macOS Software Curations & Developer Resources [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-## Top macOS Software Curations & Developer Resources Ecosystem
+> A curated directory and ecosystem overview of top macOS software curations, package managers, app stores, developer utilities, and discovery catalogs.
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Package Management, App Discovery & Curated Software Catalogs*  
-**Last updated: March 2026**
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **macOS Software Curations & Developer Resources**. These tools help users discover, install, and manage macOS applications and command-line utilities—ranging from package managers and curated awesome-lists to commercial app directories and bundle services.
-
-**Examples** include Homebrew, MacPorts, Setapp, MacUpdate, Mac App Store, GitHub Mac Releases, Softpedia Mac, CNET Download, MacPaw, MacSurfer, and jaywcjlove/awesome-mac (the category leaders and notable projects).
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosted package management, community-curated app catalogs, and transparent developer resources—ideal for developers, power users, and anyone who wants reproducible Mac setups without vendor lock-in.
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## SaaS/Hosted Platforms
-
-- **[Setapp](https://setapp.com/)**  
-  Subscription-based macOS app bundle from MacPaw offering 240+ curated apps for a flat monthly fee, with a catalog spanning productivity, development, and creative tools.
-
-- **[MacUpdate](https://www.macupdate.com/)**  
-  Long-running Mac software directory listing 32,000+ apps with user reviews, version tracking, and download links; a reference for discovering both commercial and free Mac software [citation:14].
-
-- **[Mac App Store](https://www.apple.com/app-store/)**  
-  Apple's official distribution channel for macOS apps, with sandboxed installs, automatic updates, Family Sharing, and one-time or subscription pricing for curated titles [citation:4].
-
-- **[Softpedia Mac](https://mac.softpedia.com/)**  
-  Software directory with a dedicated macOS section, offering downloads, reviews, and version histories for a wide range of applications.
-
-- **[CNET Download (Mac)](https://download.cnet.com/mac/)**  
-  Legacy software download portal with a macOS category, providing editor reviews and download links for popular Mac utilities.
-
-- **[MacPaw](https://macpaw.com/)**  
-  Developer of CleanMyMac, Setapp, and other Mac utilities; MacPaw's ecosystem serves as both a software source and a curated distribution platform.
-
-- **[MacSurfer](https://www.macsurfer.com/)**  
-  Mac news aggregator and resource directory that curates headlines, software releases, and industry updates for the Mac community.
-
-## Open-Source GitHub Projects
-
-- **[Homebrew](https://github.com/Homebrew/brew)**  
-  The de facto package manager for macOS (and Linux), with Formulae for CLI tools and Casks for GUI applications; free, open source (BSD-2-Clause), and backed by a massive community-maintained catalog [citation:9].
-
-- **[jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac)**  
-  The most-starred macOS software curation list on GitHub (118,000+ stars), systematically organizing high-quality Mac apps by category with separate command-line app indexes [citation:14].
-
-- **[MacPorts](https://github.com/macports/macports-base)**  
-  Open-source package management system for macOS that simplifies compiling, installing, and upgrading open-source software; an alternative to Homebrew with a ports-based approach [citation:9].
-
-- **[Applite](https://github.com/milanvarady/Applite)**  
-  Native macOS GUI app store for software not on the App Store, backed by Homebrew Cask; provides a user-friendly interface for browsing and installing Homebrew casks [citation:9].
-
-- **[onmyway133/awesome-open-source-mac-apps](https://github.com/onmyway133/awesome-open-source-mac-apps)**  
-  Curated list of open-source Mac applications organized by category (Image Tools, Browsers, Communication, AI Assistants, Security, VPN, etc.) with GitHub star counts [citation:5].
-
-- **[serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps)**  
-  Comprehensive catalog of open-source macOS applications, with listings spanning media players, utilities, and developer tools [citation:15].
-
-- **[abordage/awesome-mac](https://github.com/abordage/awesome-mac)**  
-  Auto-updated curated collection of macOS applications with metadata, categorization, and quality filtering; a maintained alternative to static awesome-lists [citation:10].
-
-- **[Neobrew](https://github.com/shian15810/neobrew)**  
-  A DX-focused, Homebrew-interoperable package manager for macOS and Linux written in Rust; shares Homebrew's filesystem state for seamless coexistence, with parallel pipelines for downloads, hashing, and unpacking [citation:8].
-
-- **[nanobrew](https://github.com/justrach/nanobrew)**  
-  Experimental Homebrew alternative that consumes upstream formula DSL without forking, with a tiered trust system (checksum-verified, source-verified, install-verified) and a custom OCI-based bottle mirror [citation:3].
-
-- **[sps](https://github.com/alexykn/sps)**  
-  Rust-powered package manager for macOS ARM architecture inspired by Homebrew, managing Formulae and Casks with dependency resolution and cache management [citation:13].
-
-### Additional Strong Open-Source Options
-
-- **Mas** — Simple command-line interface for the Mac App Store, enabling `mas install` for App Store apps from the terminal [citation:7].
-- **Mac-CLI** — Swiss Army knife for macOS, automating system management tasks from the command line [citation:7].
-- **m-cli** — Another macOS CLI management tool, often compared to Mac-CLI for system automation [citation:7].
-- **Awesome macOS Command Line Apps** — jaywcjlove/awesome-mac's dedicated CLI index covering databases, media tools, developer utilities, and system management commands [citation:7][citation:12].
-- **AlternativeTo (Mac section)** — Community-driven software recommendation site; open data model but not a GitHub project [citation:9].
-
-**Frameworks for building custom systems**: Combine **Homebrew** as the primary installation engine, **Applite** for GUI-driven Cask browsing, **jaywcjlove/awesome-mac** for discovery and curation, and **Neobrew** or **nanobrew** for performance-focused or trust-tiered package management. Use **Mas** for App Store automation and **Mac-CLI** for system provisioning scripts.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Package managers and curated lists may include software with varying licenses, quality, and maintenance status; verify before installing.
-- Commercial platforms (Setapp, MacUpdate, Mac App Store) have their own terms, pricing, and review policies—check current offerings on official sites.
-- Homebrew and third-party package managers execute installation scripts; review formulae/casks from untrusted taps before installing.
+Discover, install, automate, and configure macOS applications and developer environments using vetted SaaS platforms and top-rated open-source command-line tools.
 
 ---
 
-**Made for macOS developers, power users, IT administrators, and anyone building a reproducible, discoverable Mac software stack.**  
-Let's make macOS software curation and package management more open, transparent, and efficient.
+## Table of Contents
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS & Hosted Discovery Platforms](#saas--hosted-discovery-platforms)
+- [Open-Source Package Managers & Curated Repositories](#open-source-package-managers--curated-repositories)
+- [Recommended Stack & Setup Automation](#recommended-stack--setup-automation)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
+
+---
+
+## Sector Overview & Market Dynamics
+
+The global desktop operating system application and digital distribution ecosystem is estimated at **$24 billion to $26 billion** in platform software spend, with the broader App Store economy driving over **$1.4 trillion** in global digital and physical commerce.
+
+The market displays a **highly concentrated, "winner-take-all" dynamic** at the core distribution and operating system layer dominated by Apple (via the Mac App Store and platform gatekeeping), complemented by an indispensable, community-standard open-source package management layer (led by Homebrew), while indie subscription bundles (such as Setapp) and catalog directories operate in a moderately fragmented secondary discovery tier.
+
+---
+
+## SaaS & Hosted Discovery Platforms
+
+The table below outlines leading commercial app bundles, hosted directories, and ecosystem distributors, ranked in descending order of organization size (market capitalization, valuation, or estimated annual revenue).
+
+| Platform | Valuation / Company Scale | Starting Pricing | Free Tier / Free Trial Limits | Description & Ecosystem Role |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Mac App Store](https://www.apple.com/app-store/)** | **~$3.0+ Trillion Market Cap** (Apple Inc., NASDAQ: AAPL; $117B+ annual consumer app spend) | Free to browse; developer distribution starts at **$99/year** (Apple Developer Program); apps priced individually | **Free for life** for browsing, downloading free/freemium macOS apps, and system updates | Apple's official distribution channel for sandboxed, notarized macOS applications with automated updates and Family Sharing. |
+| **[CNET Download (Mac)](https://download.cnet.com/mac/)** | **~$1.4+ Billion Annual Revenue** (Parent company Ziff Davis, NASDAQ: ZD; acquired CNET for ~$100M) | Free to access; monetized via software partnerships & ads | **Free for life** unlimited browsing, direct software downloads, and reviews | Longstanding software discovery directory offering curated editorial reviews, safe downloads, and version tracking for Mac utilities. |
+| **[MacPaw](https://macpaw.com/)** | **~$90 Million Annual Revenue** (Bootstrapped / estimated private valuation $350M–$500M) | CleanMyMac starts at **$39.95/year** for 1 Mac; standalone licenses available | **Free edition with scan limits** (e.g., cleans up to 500 MB of system junk free of charge) | Major macOS independent software vendor and creator of CleanMyMac, Moonlock, and the Setapp subscription marketplace. |
+| **[Setapp](https://setapp.com/)** | **Part of MacPaw** (~$90M company ARR; Setapp estimated $25M–$35M ARR) | **$9.99/month** (billed annually at $8.99/month) for 1 Mac | **7-day free trial** with full unrestricted access to 240+ curated macOS apps | Curated subscription bundle for macOS and iOS providing unlimited access to 240+ premium productivity and developer applications. |
+| **[Softpedia Mac](https://mac.softpedia.com/)** | **~$15 Million – $25 Million Annual Revenue** (SoftNews NET SRL; privately held) | Free to access; premium ad-free and sponsor placements available | **Free for life** unlimited access to index, software change-logs, and verified downloads | Comprehensive software archive tracking version histories, malware scans, and direct installer downloads across thousands of Mac utilities. |
+| **[MacUpdate](https://www.macupdate.com/)** | **~$3 Million – $6 Million Annual Revenue** (Clario Tech / independent private) | MacUpdate Desktop subscription starts at **$9.99/year** (regularly $19.99/year) | **Free trial limited to 4 app updates or uninstalls**; website browsing is free for life | Longstanding Mac software directory and desktop client providing centralized app updating, curated reviews, and discount promotions. |
+| **[MacSurfer](https://www.macsurfer.com/)** | **<$1 Million Annual Revenue** (Independent niche web property) | **$0 (100% Free)** | **Free for life** unrestricted access to curated daily Apple & macOS headlines | Veteran news aggregator indexing headline updates, software releases, security patches, and community news across the Mac landscape. |
+
+---
+
+## Open-Source Package Managers & Curated Repositories
+
+Community-driven, open-source repositories and package management utilities, sorted in descending order by GitHub stargazers count.
+
+| Project | Stars | Focus & Description |
+| :--- | :--- | :--- |
+| **[sindresorhus/awesome](https://github.com/sindresorhus/awesome)** | [![Stars](https://img.shields.io/github/stars/sindresorhus/awesome?style=social&color=white)](https://github.com/sindresorhus/awesome/stargazers) | The root index of all curated awesome-lists, containing foundational references for macOS developers, shells, and software ecosystems. |
+| **[jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac)** | [![Stars](https://img.shields.io/github/stars/jaywcjlove/awesome-mac?style=social&color=white)](https://github.com/jaywcjlove/awesome-mac/stargazers) | The premier macOS software curation guide on GitHub, organizing high-quality apps, CLI utilities, and developer tools by category. |
+| **[serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps)** | [![Stars](https://img.shields.io/github/stars/serhii-londar/open-source-mac-os-apps?style=social&color=white)](https://github.com/serhii-londar/open-source-mac-os-apps/stargazers) | Massive catalog of awesome open-source macOS software with primary links, licenses, Swift/Objective-C tech stacks, and star counts. |
+| **[Homebrew/brew](https://github.com/Homebrew/brew)** | [![Stars](https://img.shields.io/github/stars/Homebrew/brew?style=social&color=white)](https://github.com/Homebrew/brew/stargazers) | The missing package manager for macOS; provides command-line formulas and GUI casks used as the de facto standard by Mac developers. |
+| **[iina/iina](https://github.com/iina/iina)** | [![Stars](https://img.shields.io/github/stars/iina/iina?style=social&color=white)](https://github.com/iina/iina/stargazers) | Modern media player for macOS built with Swift, mpv, and native macOS design patterns (Picture-in-Picture, Touch Bar, dark mode). |
+| **[MonitorControl/MonitorControl](https://github.com/MonitorControl/MonitorControl)** | [![Stars](https://img.shields.io/github/stars/MonitorControl/MonitorControl?style=social&color=white)](https://github.com/MonitorControl/MonitorControl/stargazers) | Essential utility to control external monitor brightness, volume, and contrast natively via keyboard keys and DDC/CI commands. |
+| **[mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles)** | [![Stars](https://img.shields.io/github/stars/mathiasbynens/dotfiles?style=social&color=white)](https://github.com/mathiasbynens/dotfiles/stargazers) | Benchmark sensible macOS default configurations, terminal settings, and developer environment bootstrapping scripts. |
+| **[asmvik/yabai](https://github.com/asmvik/yabai)** | [![Stars](https://img.shields.io/github/stars/asmvik/yabai?style=social&color=white)](https://github.com/asmvik/yabai/stargazers) | Tiling window management utility for macOS based on binary space partitioning, enabling complete keyboard-driven window workflows. |
+| **[nikitabobko/AeroSpace](https://github.com/nikitabobko/AeroSpace)** | [![Stars](https://img.shields.io/github/stars/nikitabobko/AeroSpace?style=social&color=white)](https://github.com/nikitabobko/AeroSpace/stargazers) | An i3-like tiling window manager for macOS that does away with macOS Spaces limitations for high-performance developer ergonomics. |
+| **[sindresorhus/quick-look-plugins](https://github.com/sindresorhus/quick-look-plugins)** | [![Stars](https://img.shields.io/github/stars/sindresorhus/quick-look-plugins?style=social&color=white)](https://github.com/sindresorhus/quick-look-plugins/stargazers) | Curated list of useful macOS Quick Look plugins for developers (syntax highlighting, JSON, markdown, webp, and zip archive previewing). |
+| **[FelixKratz/SketchyBar](https://github.com/FelixKratz/SketchyBar)** | [![Stars](https://img.shields.io/github/stars/FelixKratz/SketchyBar?style=social&color=white)](https://github.com/FelixKratz/SketchyBar/stargazers) | Highly customizable macOS status bar replacement providing complete aesthetic and functional control for developer desktops. |
+| **[mas-cli/mas](https://github.com/mas-cli/mas)** | [![Stars](https://img.shields.io/github/stars/mas-cli/mas?style=social&color=white)](https://github.com/mas-cli/mas/stargazers) | Simple command-line interface for the Mac App Store, designed for unattended scripting, dotfiles automation, and setup scripts. |
+| **[rgcr/m-cli](https://github.com/rgcr/m-cli)** | [![Stars](https://img.shields.io/github/stars/rgcr/m-cli?style=social&color=white)](https://github.com/rgcr/m-cli/stargazers) | Swiss Army knife for macOS system administration, offering CLI toggles for Bluetooth, Wi-Fi, audio, firewall, dock, and power management. |
+| **[guarinogabriel/Mac-CLI](https://github.com/guarinogabriel/Mac-CLI)** | [![Stars](https://img.shields.io/github/stars/guarinogabriel/Mac-CLI?style=social&color=white)](https://github.com/guarinogabriel/Mac-CLI/stargazers) | Automated macOS command-line suite for developers and power users, speeding up maintenance, cleanup, and dev tool setup. |
+| **[glushchenko/fsnotes](https://github.com/glushchenko/fsnotes)** | [![Stars](https://img.shields.io/github/stars/glushchenko/fsnotes?style=social&color=white)](https://github.com/glushchenko/fsnotes/stargazers) | Modern, open-source file-system-based Markdown note manager for macOS and iOS with Git integration and native performance. |
+| **[linearmouse/linearmouse](https://github.com/linearmouse/linearmouse)** | [![Stars](https://img.shields.io/github/stars/linearmouse/linearmouse?style=social&color=white)](https://github.com/linearmouse/linearmouse/stargazers) | Utility that enables independent mouse and trackpad scroll direction, acceleration curves, and button mapping on macOS. |
+| **[milanvarady/Applite](https://github.com/milanvarady/Applite)** | [![Stars](https://img.shields.io/github/stars/milanvarady/Applite?style=social&color=white)](https://github.com/milanvarady/Applite/stargazers) | Beautiful, user-friendly native GUI app store for macOS powered entirely by Homebrew Cask. |
+| **[sbmpost/AutoRaise](https://github.com/sbmpost/AutoRaise)** | [![Stars](https://img.shields.io/github/stars/sbmpost/AutoRaise?style=social&color=white)](https://github.com/sbmpost/AutoRaise/stargazers) | Auto-raise focus-follows-mouse utility for macOS, popular among developers and multi-monitor power users. |
+| **[justrach/nanobrew](https://github.com/justrach/nanobrew)** | [![Stars](https://img.shields.io/github/stars/justrach/nanobrew?style=social&color=white)](https://github.com/justrach/nanobrew/stargazers) | Lightweight, security-conscious Homebrew client implementing a tiered verification engine and isolated bottle mirrors. |
+| **[macports/macports-base](https://github.com/macports/macports-base)** | [![Stars](https://img.shields.io/github/stars/macports/macports-base?style=social&color=white)](https://github.com/macports/macports-base/stargazers) | The legacy ports-based UNIX software package management system for macOS, compiling tools directly from verified sources. |
+| **[abordage/awesome-mac](https://github.com/abordage/awesome-mac)** | [![Stars](https://img.shields.io/github/stars/abordage/awesome-mac?style=social&color=white)](https://github.com/abordage/awesome-mac/stargazers) | Community-driven collection of software, utilities, and developer resources for macOS, featuring automated badge updates. |
+| **[onmyway133/awesome-open-source-mac-apps](https://github.com/onmyway133/awesome-open-source-mac-apps)** | [![Stars](https://img.shields.io/github/stars/onmyway133/awesome-open-source-mac-apps?style=social&color=white)](https://github.com/onmyway133/awesome-open-source-mac-apps/stargazers) | Hand-curated index of open-source macOS software categorized by developer utilities, media players, and system extensions. |
+
+---
+
+## Recommended Stack & Setup Automation
+
+When configuring a reproducible Mac development machine, combine these layers:
+1. **Package Management**: Install **[Homebrew](https://github.com/Homebrew/brew)** for CLI formulas and GUI applications (`brew install --cask`).
+2. **App Store CLI Automation**: Use **[mas-cli](https://github.com/mas-cli/mas)** to script App Store installations directly in your provisioning dotfiles.
+3. **Visual Exploration**: Run **[Applite](https://github.com/milanvarady/Applite)** for a clean, graphical store interface over your Homebrew casks.
+4. **Window Management & Productivity**: Leverage **[AeroSpace](https://github.com/nikitabobko/AeroSpace)** or **[yabai](https://github.com/asmvik/yabai)** alongside **[MonitorControl](https://github.com/MonitorControl/MonitorControl)** and **[LinearMouse](https://github.com/linearmouse/linearmouse)** for optimal ergonomic workflows.
+5. **Software Discovery**: Reference **[jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac)** and **[serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps)** when scouting replacements for proprietary utilities.
+
+---
+
+## How to Contribute
+
+1. Fork this repository.
+2. Create a new branch: `git checkout -b feature/new-macos-resource`.
+3. Add or update items in `README.md` following the tabular layout. For open-source repos, include the social star badge linking to the `/stargazers` URL.
+4. Ensure entries are factual, active, and relevant to macOS software curation or developer workflows.
+5. Submit a Pull Request with a clear description of the project.
+
+---
+
+## Disclaimer
+
+- This is a community-curated directory intended for educational and developer productivity purposes; inclusion does not constitute a commercial endorsement.
+- Package managers and repositories execute build scripts and third-party binaries; always review formulae, casks, and release signatures before installing on production systems.
+- Commercial trademarks and service marks belong to their respective owners.
